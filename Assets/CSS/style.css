@@ -3,15 +3,19 @@
     --secondary-color: rgb(216, 216, 216);
     --tertiary-color: rgb(65, 65, 240);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body { 
+
+body {
     background-color: var(--secondary-color)
 }
+
 /* header */
+
 header {
     padding: 20px 0;
     background-color: var(--secondary-color);
@@ -24,17 +28,15 @@ header {
 header h1 {
     font-weight: 500;
     font-size: white;
-    background-color:var(--tertiary-color);
+    background-color: var(--tertiary-color);
     margin: 0;
     padding-left: 75px;
     display: inline-block;
     justify-self: left;
 }
 
-
-
 header nav {
-    margin:7px 0;
+    margin: 7px 0;
 }
 
 header nav ul {
@@ -45,14 +47,15 @@ header nav ul li {
     display: inline-block;
     padding-left: 25px;
 }
+
 header nav ul li a {
     font-weight: lighter;
     font-size: 1.5vw;
     text-decoration: none;
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
-
 }
+
 /* header ends */
 
 .hero {
@@ -61,9 +64,7 @@ header nav ul li a {
     background-position: center;
     width: 100%;
     height: 600px;
-
 }
-
 
 .section-title {
     margin: 30px auto;
@@ -73,7 +74,6 @@ header nav ul li a {
     justify-content: space-between;
     font-size: 30px;
     color: var(--tertiary-color);
-    
 }
 
 .section-title h2 {
@@ -96,7 +96,6 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-
 }
 
 .flex-item {
@@ -105,13 +104,11 @@ header nav ul li a {
     flex-direction: column;
     justify-content: space-between;
     width: 49%;
-    height:400px;
+    height: 400px;
     border: solid 5px var(--tertiary-color);
     padding: 50px 0;
     margin-bottom: 15px;
     color: white;
-    
-
 }
 
 #first-box {
@@ -135,6 +132,7 @@ section p {
 }
 
 /* Footer */
+
 footer ul {
     list-style-type: none;
 }
@@ -146,18 +144,18 @@ footer ul li {
     font-size: 1.5vw;
     color: var(--tertiary-color);
     border-bottom: 3px solid var(--tertiary-color);
-    
+}
 
-}
 footer ul li a {
-   text-decoration: none;
-   color: var(--tertiary-color);
+    text-decoration: none;
+    color: var(--tertiary-color);
 }
+
 /* Footer ends */
 
 /* Media Query 980px */
 
-@media  screen and (max-width:980px) {
+@media screen and (max-width:980px) {
     header nav ul li a {
         list-style-type: none;
         font-size: 25px;
@@ -171,23 +169,21 @@ footer ul li a {
 }
 
 /* Media Query 750px */
+
 @media screen and (max-width:750px) {
-
     header h1 {
-        padding:0%;
+        padding: 0%;
     }
-
     footer ul li {
         font-size: 20px;
     }
     footer ul li a {
         font-size: 20px;
-     }
-     
-    
+    }
 }
 
 /* Media Query 675px */
+
 @media screen and (max-width: 675px) {
     header {
         justify-content: center;
